@@ -1,0 +1,19 @@
+[build]
+  publish = "public"
+
+# No build command — we push pre-built HTML directly
+# The generate_site.py script runs locally, commits HTML, and pushes
+# Netlify just serves whatever is in /public
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+    Access-Control-Allow-Origin = "*"
