@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-04-21 22:39 UTC",
+  "run_date": "2026-04-21 23:18 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -160,12 +160,13 @@
       "chicken_breast": {
         "id": 2263179,
         "name": "RSPCA Approved Chicken Breast Fillets Large Pack",
-        "price": 15.4,
+        "price": 11,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$11.00/kg",
         "inStock": true,
-        "size": "approx. 1.4kg"
+        "size": "approx. 1.4kg",
+        "_unit_price": 11
       },
       "carrots": {
         "id": 9006560,
@@ -173,9 +174,10 @@
         "price": 2.4,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$2.40/ 1kg",
         "inStock": true,
-        "size": "1Kg"
+        "size": "1Kg",
+        "_unit_price": 2.4
       },
       "apples": {
         "id": 4433462,
@@ -183,9 +185,10 @@
         "price": 4.9,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$4.90/ 1kg",
         "inStock": true,
-        "size": "1 each"
+        "size": "1 each",
+        "_unit_price": 4.9
       },
       "bananas": {
         "id": 409499,
@@ -193,9 +196,10 @@
         "price": 0.77,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$4.50/ 1kg",
         "inStock": true,
-        "size": "approx. 170g"
+        "size": "approx. 170g",
+        "_unit_price": 4.5
       },
       "strawberries": {
         "id": 8877195,
@@ -203,9 +207,10 @@
         "price": 8.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$0.71/ 100g",
         "inStock": true,
-        "size": "12 Pack"
+        "size": "12 Pack",
+        "_unit_price": 0.71
       },
       "blueberries": {
         "id": 5543535,
@@ -213,9 +218,10 @@
         "price": 7.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$60.00/ 1kg",
         "inStock": true,
-        "size": "125g"
+        "size": "125g",
+        "_unit_price": 60
       },
       "milk": {
         "id": 439693,
@@ -223,9 +229,10 @@
         "price": 3.55,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$1.78/ 1L",
         "inStock": true,
-        "size": "2L"
+        "size": "2L",
+        "_unit_price": 1.77
       },
       "yoghurt": {
         "id": 7246869,
@@ -233,9 +240,10 @@
         "price": 2.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$1.79/ 100g",
         "inStock": true,
-        "size": "140g"
+        "size": "140g",
+        "_unit_price": 1.79
       },
       "cheese_slices": {
         "id": 6704811,
@@ -243,19 +251,21 @@
         "price": 11,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$22.00/ 1kg",
         "inStock": true,
-        "size": "500g"
+        "size": "500g",
+        "_unit_price": 22
       },
       "ham": {
         "id": 3055086,
         "name": "Champagne Leg Ham",
         "price": 3,
         "wasPrice": 3.95,
-        "isSpecial": false,
-        "cupString": null,
+        "isSpecial": true,
+        "cupString": "$30.00/ 1kg",
         "inStock": true,
-        "size": "100g"
+        "size": "100g",
+        "_unit_price": 30
       },
       "weetbix": {
         "id": 133117,
@@ -263,19 +273,21 @@
         "price": 4,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$1.07/ 100g",
         "inStock": true,
-        "size": "375g"
+        "size": "375g",
+        "_unit_price": 1.07
       },
       "sultanas": {
         "id": 145604,
         "name": "Sultanas Snack",
         "price": 2.9,
         "wasPrice": 3.7,
-        "isSpecial": false,
-        "cupString": null,
+        "isSpecial": true,
+        "cupString": "$12.08/ 1kg",
         "inStock": true,
-        "size": "6 Pack"
+        "size": "6 Pack",
+        "_unit_price": 12.08
       },
       "chips": {
         "id": 4843850,
@@ -283,9 +295,10 @@
         "price": 7.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$2.00/ 100g",
         "inStock": true,
-        "size": "375g"
+        "size": "375g",
+        "_unit_price": 2
       },
       "tuna": {
         "id": 390572,
@@ -293,9 +306,10 @@
         "price": 7.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$17.65/ 1kg",
         "inStock": true,
-        "size": "425g"
+        "size": "425g",
+        "_unit_price": 17.65
       },
       "bread": {
         "id": 1139480,
@@ -303,19 +317,21 @@
         "price": 4.75,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$0.68/ 100g",
         "inStock": true,
-        "size": "700g"
+        "size": "700g",
+        "_unit_price": 0.68
       },
       "vegemite": {
         "id": 5998852,
         "name": "Spread",
         "price": 7.7,
         "wasPrice": 0,
-        "isSpecial": true,
-        "cupString": null,
+        "isSpecial": false,
+        "cupString": "$2.03/ 100g",
         "inStock": true,
-        "size": "380g"
+        "size": "380g",
+        "_unit_price": 2.03
       },
       "cucumbers": {
         "id": 4578148,
@@ -323,19 +339,19 @@
         "price": 3,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$12.00/ 1kg",
         "inStock": true,
-        "size": "250g"
+        "size": "250g",
+        "_unit_price": 12
       }
     },
     "aldi": {
       "chicken_breast": {
-        "name": "BROAD OAK FARMS RSPCA Approved Chicken Breast Fillets approx. 0.6 kg per package",
-        "price": 7.19,
-        "unitPrice": "$11.99 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
+        "name": "RSPCA Approved Chicken Breast Fillets Value Pack",
+        "price": 9.99,
+        "cupString": "$9.99/kg",
+        "inStock": true,
+        "isSpecial": false
       },
       "carrots": {
         "name": "Carrots 1kg 1 kg",
@@ -564,21 +580,21 @@
         "inStock": true
       },
       "sultanas": {
-        "name": "Pods Snickers Chocolate Share Pack",
-        "price": 4.9,
-        "wasPrice": null,
-        "isSpecial": true,
-        "savings": "30% Off",
-        "cupString": "$3.06/100g",
-        "inStock": true
-      },
-      "chips": {
-        "name": "Maltesers Milk Chocolate Funsize 11 Multipack",
-        "price": 7.1,
+        "name": "Prima Orange Fruit Drink Multipack 200ml",
+        "price": 4.8,
         "wasPrice": null,
         "isSpecial": true,
         "savings": "Special",
-        "cupString": "$5.38/100g",
+        "cupString": "$0.80 each",
+        "inStock": true
+      },
+      "chips": {
+        "name": "Fun Faves Variety Multipack",
+        "price": 7.5,
+        "wasPrice": null,
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$0.42 each",
         "inStock": true
       },
       "tuna": {
