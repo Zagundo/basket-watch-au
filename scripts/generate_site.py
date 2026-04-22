@@ -273,8 +273,7 @@ html = f"""<!DOCTYPE html>
     <span><span class="dot-cheap"></span> Cheapest this week</span>
     <span><span class="dot-dear"></span> Most expensive</span>
     <span>⭐ On special</span>
-    <span>🏪 In-store only</span>
-    <span>⚖️ Loose/weighted only</span>
+    <span>— Not listed online</span>
   </div>
 
   <div class="table-wrap">
@@ -304,8 +303,9 @@ html = f"""<!DOCTYPE html>
       <li>17-item basket based on Choice Magazine's quarterly supermarket benchmark</li>
       <li>Prices are <strong>online prices</strong> as at {run_display} — may differ from in-store</li>
       <li>Fresh produce priced as sold online (per-each or per-pack, not per-kg)</li>
-      <li>Bananas: ×5 each (~850g) — ALDI and IGA don't sell bananas per-each online</li>
-      <li>ALDI: fresh produce available in-store only (not priced online)</li>
+      <li>Bananas: ×5 each — Woolworths, Coles &amp; ALDI priced per-each; IGA priced per-kg (×900g equivalent)</li>
+      <li>Variable-weight items (chicken breast) shown at per-kg price for like-for-like comparison</li>
+      <li>— = product not listed in online store (e.g. IGA strawberries)</li>
       <li>⭐ = item was on special at time of capture</li>
       <li>Choice benchmark: ALDI $75.98 · Woolworths $90.08 · Coles $90.90 · IGA $101.84 (Dec 2025)</li>
     </ul>
