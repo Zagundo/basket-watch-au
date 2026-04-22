@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-04-22 00:41 UTC",
+  "run_date": "2026-04-22 00:45 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -202,15 +202,15 @@
         "_unit_price": 4.5
       },
       "strawberries": {
-        "id": 8877195,
-        "name": "Berry Punnet Yoghurt Strawberry Mixed Berries",
-        "price": 8.5,
+        "id": 5191256,
+        "name": "Strawberries",
+        "price": 5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$0.71/ 100g",
+        "cupString": "$20.00/ 1kg",
         "inStock": true,
-        "size": "12 Pack",
-        "_unit_price": 0.71
+        "size": "250g",
+        "_unit_price": 20
       },
       "blueberries": {
         "id": 5543535,
