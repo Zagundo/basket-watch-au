@@ -82,8 +82,8 @@ for rid, _, _ in RETAILERS:
     specials = 0
     for iid in BASKET_IDS:
         v = items.get(iid)
-        if v and v.get('price') and not v.get('inStoreOnly') and not v.get('weightedOnly'):
-            qty = qty_map.get(iid, 1)
+        if v and v.get('price') and not v.get('inStoreOnly') and not v.get('weightedOnly') and not v.get('notListed'):
+            qty = 1 if v.get('qty_override') else qty_map.get(iid, 1)
             total += v['price'] * qty
             found += 1
             if v.get('isSpecial'):
@@ -94,18 +94,28 @@ run_dt = datetime.now(AEST)
 run_display = run_dt.strftime('%-d %B %Y')
 
 # ── Render HTML ───────────────────────────────────────────
+def eff_qty(v, iid):
+    """Effective qty — respects qty_override for banana-calc items."""
+    if v and v.get('qty_override'):
+        return 1
+    return BASKET_QTY.get(iid, 1)
+
+def eff_price(v, iid):
+    if not v or not v.get('price'):
+        return None
+    return round(v['price'] * eff_qty(v, iid), 2)
+
 def price_cell(rid, iid):
     v = (results.get(rid) or {}).get(iid)
-    qty = BASKET_QTY.get(iid, 1)
     if not v:
         return '<td class="na">—</td>'
     if v.get('inStoreOnly'):
         return '<td class="na" title="In-store only">🏪</td>'
-    if v.get('weightedOnly'):
-        return '<td class="na" title="Loose/weighted — not sold per-each online">⚖️</td>'
+    if v.get('weightedOnly') or v.get('notListed'):
+        return '<td class="na" title="Not listed online">—</td>'
     if not v.get('price'):
         return '<td class="na">—</td>'
-    price = v['price'] * qty
+    price = eff_price(v, iid)
     special = ' <span class="special" title="On special">⭐</span>' if v.get('isSpecial') else ''
     return f'<td class="price">${price:.2f}{special}</td>'
 
@@ -130,9 +140,9 @@ for iid in BASKET_IDS:
     prices = []
     for rid, _, _ in RETAILERS:
         v = (results.get(rid) or {}).get(iid)
-        if v and v.get('price') and not v.get('inStoreOnly') and not v.get('weightedOnly'):
-            qty = BASKET_QTY.get(iid, 1)
-            prices.append((rid, v['price'] * qty))
+        if v and v.get('price') and not v.get('inStoreOnly') and not v.get('weightedOnly') and not v.get('notListed'):
+            ep = eff_price(v, iid)
+            if ep: prices.append((rid, ep))
     if prices:
         min_price = min(p for _, p in prices)
         max_price = max(p for _, p in prices)
@@ -140,17 +150,16 @@ for iid in BASKET_IDS:
         min_price = max_price = None
     for rid, _, _ in RETAILERS:
         v = (results.get(rid) or {}).get(iid)
-        qty = BASKET_QTY.get(iid, 1)
         if not v:
             row += '<td class="na">—</td>'
         elif v.get('inStoreOnly'):
             row += '<td class="na" title="In-store only">🏪</td>'
-        elif v.get('weightedOnly'):
-            row += '<td class="na" title="Loose/weighted only">⚖️</td>'
+        elif v.get('weightedOnly') or v.get('notListed'):
+            row += '<td class="na" title="Not listed online">—</td>'
         elif not v.get('price'):
             row += '<td class="na">—</td>'
         else:
-            price = v['price'] * qty
+            price = eff_price(v, iid)
             special = ' <span class="special">⭐</span>' if v.get('isSpecial') else ''
             cheapest = ' cheapest' if min_price and price == min_price and min_price < max_price else ''
             dearest  = ' dearest'  if max_price and price == max_price and min_price < max_price else ''
