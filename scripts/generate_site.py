@@ -25,10 +25,23 @@ AEST       = ZoneInfo('Australia/Sydney')
 DATA_DIR.mkdir(exist_ok=True)
 PUBLIC_DIR.mkdir(exist_ok=True)
 
-# ── Run the basket tracker ────────────────────────────────
-print(f"[{datetime.now(AEST).strftime('%Y-%m-%d %H:%M %Z')}] Running basket tracker...")
-subprocess.run(['python3', str(TRACKER)], timeout=300)
-raw = json.loads(Path('/tmp/basket-tracker-v2-latest.json').read_text())
+TMP_DATA = Path('/tmp/basket-tracker-v2-latest.json')
+
+# ── Run the basket tracker (skip if fresh data already exists) ────────────────
+def data_is_fresh(path, max_age_hours=6):
+    """Return True if the file exists and was written within max_age_hours."""
+    if not path.exists():
+        return False
+    age_seconds = datetime.now(timezone.utc).timestamp() - path.stat().st_mtime
+    return age_seconds < max_age_hours * 3600
+
+if data_is_fresh(TMP_DATA):
+    print(f"[{datetime.now(AEST).strftime('%Y-%m-%d %H:%M %Z')}] Fresh data found in {TMP_DATA} — skipping scraper run.")
+else:
+    print(f"[{datetime.now(AEST).strftime('%Y-%m-%d %H:%M %Z')}] Running basket tracker...")
+    subprocess.run(['python3', str(TRACKER)], timeout=300)
+
+raw = json.loads(TMP_DATA.read_text())
 
 run_date_utc = raw.get('run_date', datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'))
 results      = raw.get('results', {})
