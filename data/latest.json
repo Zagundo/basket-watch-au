@@ -157,23 +157,76 @@
       }
     },
     "coles": {
-      "chicken_breast": null,
-      "carrots": null,
-      "apples": null,
-      "bananas": null,
-      "strawberries": null,
-      "blueberries": null,
-      "milk": null,
-      "yoghurt": null,
-      "cheese_slices": null,
-      "ham": null,
-      "weetbix": null,
-      "sultanas": null,
-      "chips": null,
-      "tuna": null,
-      "bread": null,
-      "vegemite": null,
-      "cucumbers": null
+      "chicken_breast": {
+        "price": 11.0,
+        "isSpecial": false,
+        "qty_override": true,
+        "cupString": "$11.00/kg"
+      },
+      "carrots": {
+        "price": 2.4,
+        "isSpecial": false
+      },
+      "apples": {
+        "price": 4.9,
+        "isSpecial": false
+      },
+      "bananas": {
+        "price": 0.49,
+        "isSpecial": false
+      },
+      "strawberries": {
+        "price": 5.0,
+        "isSpecial": false
+      },
+      "blueberries": {
+        "price": 7.5,
+        "isSpecial": false
+      },
+      "milk": {
+        "price": 3.55,
+        "isSpecial": false
+      },
+      "yoghurt": {
+        "price": 2.5,
+        "isSpecial": false
+      },
+      "cheese_slices": {
+        "price": 11.0,
+        "isSpecial": false
+      },
+      "ham": {
+        "price": 3.0,
+        "isSpecial": true
+      },
+      "weetbix": {
+        "price": 4.0,
+        "isSpecial": false
+      },
+      "sultanas": {
+        "price": 2.9,
+        "isSpecial": true
+      },
+      "chips": {
+        "price": 7.5,
+        "isSpecial": false
+      },
+      "tuna": {
+        "price": 7.5,
+        "isSpecial": false
+      },
+      "bread": {
+        "price": 4.75,
+        "isSpecial": false
+      },
+      "vegemite": {
+        "price": 7.7,
+        "isSpecial": false
+      },
+      "cucumbers": {
+        "price": 3.0,
+        "isSpecial": false
+      }
     },
     "aldi": {
       "chicken_breast": {
