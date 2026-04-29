@@ -2,23 +2,176 @@
   "run_date": "2026-04-29 21:02 UTC",
   "results": {
     "woolworths": {
-      "chicken_breast": null,
-      "carrots": null,
-      "apples": null,
-      "bananas": null,
-      "strawberries": null,
-      "blueberries": null,
-      "milk": null,
-      "yoghurt": null,
-      "cheese_slices": null,
-      "ham": null,
-      "weetbix": null,
-      "sultanas": null,
-      "chips": null,
-      "tuna": null,
-      "bread": null,
-      "vegemite": null,
-      "cucumbers": null
+      "chicken_breast": {
+        "stockcode": 969723,
+        "name": "RSPCA Chicken Breast Fillets Bulk Pack",
+        "price": 11.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "$11.00/kg",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "carrots": {
+        "stockcode": 135369,
+        "name": "Carrots 1kg",
+        "price": 2.5,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "apples": {
+        "stockcode": 314012,
+        "name": "Royal Gala Apples 1kg",
+        "price": 4.9,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "bananas": {
+        "stockcode": 133211,
+        "name": "Bananas Each",
+        "price": 0.63,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "$0.63 each x5",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "strawberries": {
+        "stockcode": 144607,
+        "name": "Strawberries 250g",
+        "price": 5.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "blueberries": {
+        "stockcode": 169792,
+        "name": "Blueberries 125g",
+        "price": 8.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "milk": {
+        "stockcode": 888137,
+        "name": "Full Cream Milk 2L",
+        "price": 3.55,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "yoghurt": {
+        "stockcode": 331445,
+        "name": "Vaalia Kids Yoghurt Pouch Vanilla 140g",
+        "price": 2.5,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "cheese_slices": {
+        "stockcode": 769558,
+        "name": "Bega Farmers Tasty Natural Cheese Slices 500g",
+        "price": 11.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "ham": {
+        "stockcode": 544761,
+        "name": "Primo Champagne Leg Ham Thinly Sliced 100g",
+        "price": 3.95,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "weetbix": {
+        "stockcode": 33021,
+        "name": "Weet-Bix 375g",
+        "price": 4.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "sultanas": {
+        "stockcode": 39667,
+        "name": "Sunbeam Sultanas 6-pack 250g",
+        "price": 3.7,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "chips": {
+        "stockcode": 245847,
+        "name": "Top 20 Variety Chips Multipack 20 Pack",
+        "price": 7.5,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "tuna": {
+        "stockcode": 91981,
+        "name": "Sirena Classico Tuna 425g",
+        "price": 7.5,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "bread": {
+        "stockcode": 884826,
+        "name": "Tip Top The One Wholemeal Sandwich Bread",
+        "price": 4.7,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "vegemite": {
+        "stockcode": 156027,
+        "name": "Vegemite 380g",
+        "price": 6.1,
+        "wasPrice": 7.7,
+        "isSpecial": true,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "cucumbers": {
+        "stockcode": 310477,
+        "name": "Baby Cucumbers 250g",
+        "price": 4.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      }
     },
     "coles": {
       "chicken_breast": {
@@ -498,5 +651,6 @@
         "inStock": true
       }
     }
-  }
+  },
+  "ww_source": "manual_human_check_2026-04-30"
 }
