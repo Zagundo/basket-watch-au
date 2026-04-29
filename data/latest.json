@@ -364,11 +364,12 @@
     },
     "aldi": {
       "chicken_breast": {
-        "name": "RSPCA Approved Chicken Breast Fillets Value Pack",
-        "price": 9.99,
-        "cupString": "$9.99/kg",
+        "name": "Broad Oak Farms RSPCA Approved Chicken Breast Fillets Value Pack",
+        "price": 10.99,
+        "cupString": "$10.99/kg",
         "inStock": true,
-        "isSpecial": false
+        "isSpecial": false,
+        "_source": "manual"
       },
       "carrots": {
         "name": "Carrots 1kg 1 kg",
@@ -450,12 +451,13 @@
         "outOfStock": false
       },
       "sultanas": {
-        "name": "SWEET VINE Yogurt Coated Sultanas 6 Pack 180g 0.18 kg",
-        "price": 3.69,
-        "unitPrice": "$20.50 per 1 kg",
+        "name": "Sweet Vine Australian Sultanas 6 Snack Pack 240g",
+        "price": 2.49,
+        "unitPrice": "$10.38 per 1 kg",
         "wasPrice": null,
         "isSpecial": false,
-        "outOfStock": false
+        "outOfStock": false,
+        "_source": "manual"
       },
       "chips": {
         "name": "SPRINTERS Crinkle Cut Multipack 20 Pack 380g 380 g",
@@ -561,22 +563,24 @@
         "inStock": true
       },
       "yoghurt": {
-        "name": "Pauls Kids Strawberry Yoghurt Pouch",
-        "price": 0.9,
-        "wasPrice": null,
-        "isSpecial": true,
-        "savings": "30% Off",
-        "cupString": "$1.29/100g",
-        "inStock": true
-      },
-      "cheese_slices": {
-        "name": "Bega Farmers' Tasty Natural Cheese Slices",
-        "price": 14.0,
+        "name": "Vaalia Kids Probiotic Yoghurt Vanilla Pouch",
+        "price": 2.5,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$0.31 each",
-        "inStock": true
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
+      },
+      "cheese_slices": {
+        "name": "Bega Farmers Tasty Natural Cheese Slices",
+        "price": 10.45,
+        "wasPrice": 11.0,
+        "isSpecial": true,
+        "savings": "Special",
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
       },
       "ham": {
         "name": "Primo Champagne Leg Ham Thinly Sliced",
@@ -597,13 +601,14 @@
         "inStock": true
       },
       "sultanas": {
-        "name": "Prima Orange Fruit Drink Multipack 200ml",
-        "price": 4.8,
+        "name": "Sunbeam Sultanas",
+        "price": 3.7,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "Special",
-        "cupString": "$0.80 each",
-        "inStock": true
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
       },
       "chips": {
         "name": "Fun Faves Variety Multipack",
@@ -642,13 +647,14 @@
         "inStock": true
       },
       "cucumbers": {
-        "name": "Always Fresh Baby Cucumbers",
-        "price": 6.7,
+        "name": "Qukes Baby Cucumbers Punnet 250g",
+        "price": 4.9,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$0.99/100g",
-        "inStock": true
+        "cupString": "",
+        "inStock": true,
+        "_source": "manual"
       }
     }
   },

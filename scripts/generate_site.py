@@ -174,9 +174,24 @@ for iid in BASKET_IDS:
         else:
             price = eff_price(v, iid)
             special = ' <span class="special">⭐</span>' if v.get('isSpecial') else ''
-            cheapest = ' cheapest' if min_price and price == min_price and min_price < max_price else ''
-            dearest  = ' dearest'  if max_price and price == max_price and min_price < max_price else ''
-            row += f'<td class="price{cheapest}{dearest}">${price:.2f}{special}</td>'
+            # Colour banding logic:
+            # 🟢 cheapest (single winner)
+            # 🔵 within 5% of cheapest (too close to call)
+            # ⚪ 5–20% above cheapest (neutral)
+            # 🔴 20%+ above cheapest (genuinely expensive)
+            if min_price and min_price > 0:
+                pct_above = (price - min_price) / min_price
+                if price == min_price:
+                    cell_cls = 'price cheapest'
+                elif pct_above <= 0.05:
+                    cell_cls = 'price near'
+                elif pct_above >= 0.20:
+                    cell_cls = 'price dearest'
+                else:
+                    cell_cls = 'price'
+            else:
+                cell_cls = 'price'
+            row += f'<td class="{cell_cls}">${price:.2f}{special}</td>'
     row += '</tr>'
     rows += row
 
@@ -204,6 +219,7 @@ html = f"""<!DOCTYPE html>
     --text:   #212529;
     --muted:  #6c757d;
     --cheapest-bg: #d4edda;
+    --near-bg:     #dbeafe;
     --dearest-bg:  #f8d7da;
   }}
   * {{ box-sizing: border-box; margin: 0; padding: 0; }}
@@ -236,6 +252,7 @@ html = f"""<!DOCTYPE html>
   td.price {{ font-variant-numeric: tabular-nums; }}
   td.na {{ color: var(--muted); font-size: 0.8rem; }}
   td.cheapest {{ background: var(--cheapest-bg); font-weight: 600; }}
+  td.near     {{ background: var(--near-bg); }}
   td.dearest  {{ background: var(--dearest-bg); }}
   td.total {{ font-weight: 700; font-size: 1rem; vertical-align: middle; }}
   td.total.winner {{ background: var(--cheapest-bg); }}
