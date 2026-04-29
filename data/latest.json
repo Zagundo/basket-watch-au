@@ -1,231 +1,212 @@
 {
-  "run_date": "2026-04-23 22:35 UTC",
+  "run_date": "2026-04-29 21:02 UTC",
   "results": {
     "woolworths": {
-      "chicken_breast": {
-        "stockcode": 969723,
-        "name": "Woolworths RSPCA Approved Chicken Breast Fillet 1.3kg - 1.7kg",
-        "price": 11.0,
-        "wasPrice": 18.7,
-        "isSpecial": false,
-        "cupString": "$11.00/kg (normalised)",
-        "inStock": true
-      },
-      "carrots": {
-        "stockcode": 135369,
-        "name": "Woolworths Australian Grown Carrots 1kg",
-        "price": 2.5,
-        "wasPrice": 2.5,
-        "isSpecial": false,
-        "cupString": "$2.50 / 1KG",
-        "inStock": true
-      },
-      "apples": {
-        "stockcode": 314012,
-        "name": "Woolworths Royal Gala Apple Punnet 1kg",
-        "price": 4.9,
-        "wasPrice": 4.9,
-        "isSpecial": false,
-        "cupString": "$4.90 / 1KG",
-        "inStock": true
-      },
-      "bananas": {
-        "stockcode": 133211,
-        "name": "Cavendish Bananas each",
-        "price": 0.52,
-        "wasPrice": 0.52,
-        "isSpecial": false,
-        "cupString": "$0.52 / 1EA",
-        "inStock": true
-      },
-      "strawberries": {
-        "stockcode": 144607,
-        "name": "Strawberries Punnet 250g",
-        "price": 5.5,
-        "wasPrice": 5.5,
-        "isSpecial": false,
-        "cupString": "$22.00 / 1KG",
-        "inStock": true
-      },
-      "blueberries": {
-        "stockcode": 169792,
-        "name": "Blueberries Punnet 125g",
-        "price": 7.5,
-        "wasPrice": 7.5,
-        "isSpecial": false,
-        "cupString": "$60.00 / 1KG",
-        "inStock": true
-      },
-      "milk": {
-        "stockcode": 888137,
-        "name": "Woolworths Full Cream Milk 2L",
-        "price": 3.55,
-        "wasPrice": 3.55,
-        "isSpecial": false,
-        "cupString": "$1.78 / 1L",
-        "inStock": true
-      },
-      "yoghurt": {
-        "stockcode": 331445,
-        "name": "Vaalia Kids Probiotic Yoghurt Pouch Vanilla 140g",
-        "price": 2.5,
-        "wasPrice": 2.5,
-        "isSpecial": false,
-        "cupString": "$1.79 / 100G",
-        "inStock": true
-      },
-      "cheese_slices": {
-        "stockcode": 769558,
-        "name": "Bega Tasty Cheese Slices 500g",
-        "price": 9.5,
-        "wasPrice": 11,
-        "isSpecial": true,
-        "cupString": "$19.00 / 1KG",
-        "inStock": true
-      },
-      "ham": {
-        "stockcode": 544761,
-        "name": "Primo Champagne Leg Ham Sliced 100g",
-        "price": 3.95,
-        "wasPrice": 3.95,
-        "isSpecial": false,
-        "cupString": "$39.50 / 1KG",
-        "inStock": true
-      },
-      "weetbix": {
-        "stockcode": 33021,
-        "name": "Weet-Bix Breakfast Cereal 375g",
-        "price": 4,
-        "wasPrice": 4,
-        "isSpecial": false,
-        "cupString": "$1.07 / 100G",
-        "inStock": true
-      },
-      "sultanas": {
-        "stockcode": 39667,
-        "name": "Sunbeam Australian Sultanas 6 pack",
-        "price": 3.7,
-        "wasPrice": 3.7,
-        "isSpecial": false,
-        "cupString": "$15.42 / 1KG",
-        "inStock": true
-      },
-      "chips": {
-        "stockcode": 245847,
-        "name": "Top 20 Variety Chips Multipack 20 pack",
-        "price": 7.5,
-        "wasPrice": 7.5,
-        "isSpecial": false,
-        "cupString": "$2.00 / 100G",
-        "inStock": true
-      },
-      "tuna": {
-        "stockcode": 91981,
-        "name": "Sirena Tuna In Oil Italian Style 425g",
-        "price": 7.5,
-        "wasPrice": 7.5,
-        "isSpecial": false,
-        "cupString": "$17.65 / 1KG",
-        "inStock": true
-      },
-      "bread": {
-        "stockcode": 749588,
-        "name": "Tip Top The One Wholemeal Bread Sandwich Slice Loaf Bakery 700g",
-        "price": 4.7,
-        "wasPrice": 4.7,
-        "isSpecial": false,
-        "cupString": "$0.67 / 100G",
-        "inStock": true
-      },
-      "vegemite": {
-        "stockcode": 796439,
-        "name": "Vegemite Spread 380g",
-        "price": 7.7,
-        "wasPrice": 7.7,
-        "isSpecial": false,
-        "cupString": "$2.03 / 100G",
-        "inStock": true
-      },
-      "cucumbers": {
-        "stockcode": 169067,
-        "name": "Woolworths Qukes Baby Cucumbers Punnet 250g",
-        "price": 3,
-        "wasPrice": 3,
-        "isSpecial": false,
-        "cupString": "$12.00 / 1KG",
-        "inStock": true
-      }
+      "chicken_breast": null,
+      "carrots": null,
+      "apples": null,
+      "bananas": null,
+      "strawberries": null,
+      "blueberries": null,
+      "milk": null,
+      "yoghurt": null,
+      "cheese_slices": null,
+      "ham": null,
+      "weetbix": null,
+      "sultanas": null,
+      "chips": null,
+      "tuna": null,
+      "bread": null,
+      "vegemite": null,
+      "cucumbers": null
     },
     "coles": {
       "chicken_breast": {
-        "price": 11.0,
+        "id": 2263179,
+        "name": "RSPCA Approved Chicken Breast Fillets Large Pack",
+        "price": 11,
+        "wasPrice": 0,
         "isSpecial": false,
-        "qty_override": true,
-        "cupString": "$11.00/kg"
+        "cupString": "$11.00/kg",
+        "inStock": true,
+        "size": "approx. 1.4kg",
+        "_unit_price": 11
       },
       "carrots": {
+        "id": 9006560,
+        "name": "Carrots",
         "price": 2.4,
-        "isSpecial": false
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$2.40/ 1kg",
+        "inStock": true,
+        "size": "1Kg",
+        "_unit_price": 2.4
       },
       "apples": {
-        "price": 4.9,
-        "isSpecial": false
+        "id": 4433462,
+        "name": "Royal Gala Apples 1kg",
+        "price": 7.9,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$7.90/ 1kg",
+        "inStock": true,
+        "size": "1 each",
+        "_unit_price": 7.9
       },
       "bananas": {
-        "price": 0.49,
-        "isSpecial": false
+        "id": 409499,
+        "name": "Bananas",
+        "price": 0.68,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$4.00/ 1kg",
+        "inStock": true,
+        "size": "approx. 170g",
+        "_unit_price": 4
       },
       "strawberries": {
-        "price": 5.0,
-        "isSpecial": false
+        "id": 5191256,
+        "name": "Strawberries",
+        "price": 5,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$20.00/ 1kg",
+        "inStock": true,
+        "size": "250g",
+        "_unit_price": 20
       },
       "blueberries": {
-        "price": 7.5,
-        "isSpecial": false
+        "id": 5543535,
+        "name": "Blueberries",
+        "price": 8,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$64.00/ 1kg",
+        "inStock": true,
+        "size": "125g",
+        "_unit_price": 64
       },
       "milk": {
+        "id": 439693,
+        "name": "Full Cream Milk",
         "price": 3.55,
-        "isSpecial": false
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$1.78/ 1L",
+        "inStock": true,
+        "size": "2L",
+        "_unit_price": 1.77
       },
       "yoghurt": {
-        "price": 2.5,
-        "isSpecial": false
+        "id": 7246869,
+        "name": "Kids Yoghurt Pouch Vanilla",
+        "price": 1.55,
+        "wasPrice": 2.5,
+        "isSpecial": true,
+        "cupString": "$1.11/ 100g",
+        "inStock": true,
+        "size": "140g",
+        "_unit_price": 1.11
       },
       "cheese_slices": {
-        "price": 11.0,
-        "isSpecial": false
+        "id": 6704811,
+        "name": "Cheese Natural Slices Tasty",
+        "price": 11,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$22.00/ 1kg",
+        "inStock": true,
+        "size": "500g",
+        "_unit_price": 22
       },
       "ham": {
-        "price": 3.0,
-        "isSpecial": true
+        "id": 3055086,
+        "name": "Champagne Leg Ham",
+        "price": 3.95,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$39.50/ 1kg",
+        "inStock": true,
+        "size": "100g",
+        "_unit_price": 39.5
       },
       "weetbix": {
-        "price": 4.0,
-        "isSpecial": false
+        "id": 133117,
+        "name": "Weet-bix Breakfast Cereal",
+        "price": 4,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$1.07/ 100g",
+        "inStock": true,
+        "size": "375g",
+        "_unit_price": 1.07
       },
       "sultanas": {
-        "price": 2.9,
-        "isSpecial": true
+        "id": 145604,
+        "name": "Sultanas Snack",
+        "price": 3.7,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$15.42/ 1kg",
+        "inStock": true,
+        "size": "6 Pack",
+        "_unit_price": 15.42
       },
       "chips": {
+        "id": 4843850,
+        "name": "Variety Potato Chips 20 Pack",
         "price": 7.5,
-        "isSpecial": false
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$2.00/ 100g",
+        "inStock": true,
+        "size": "375g",
+        "_unit_price": 2
       },
       "tuna": {
+        "id": 390572,
+        "name": "Tuna in Oil Italian Style",
         "price": 7.5,
-        "isSpecial": false
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$17.65/ 1kg",
+        "inStock": true,
+        "size": "425g",
+        "_unit_price": 17.65
       },
       "bread": {
-        "price": 4.75,
-        "isSpecial": false
+        "id": 1139480,
+        "name": "The One Wholemeal Sandwich Bread",
+        "price": 4.7,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$0.67/ 100g",
+        "inStock": true,
+        "size": "700g",
+        "_unit_price": 0.67
       },
       "vegemite": {
+        "id": 5998852,
+        "name": "Spread",
         "price": 7.7,
-        "isSpecial": false
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$2.03/ 100g",
+        "inStock": true,
+        "size": "380g",
+        "_unit_price": 2.03
       },
       "cucumbers": {
-        "price": 3.0,
-        "isSpecial": false
+        "id": 4578148,
+        "name": "Baby Cucumbers",
+        "price": 3.9,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$15.60/ 1kg",
+        "inStock": true,
+        "size": "250g",
+        "_unit_price": 15.6
       }
     },
     "aldi": {
@@ -246,31 +227,31 @@
       },
       "apples": {
         "name": "Royal Gala Apples 1kg 1 kg",
-        "price": 5.99,
-        "unitPrice": "$5.99 per 1 kg",
+        "price": 3.99,
+        "unitPrice": "$3.99 per 1 kg",
         "wasPrice": null,
         "isSpecial": false,
         "outOfStock": false
       },
       "bananas": {
         "name": "Cavendish Bananas Loose",
-        "price": 0.52,
-        "cupString": "$0.52/ea",
+        "price": 0.63,
+        "cupString": "$0.63/ea",
         "inStock": true,
         "isSpecial": false
       },
       "strawberries": {
         "name": "Strawberries 250g 0.25 kg",
-        "price": 4.49,
-        "unitPrice": "$17.96 per 1 kg",
+        "price": 4.99,
+        "unitPrice": "$19.96 per 1 kg",
         "wasPrice": null,
         "isSpecial": false,
         "outOfStock": false
       },
       "blueberries": {
         "name": "Blueberries 125g 0.125 kg",
-        "price": 6.49,
-        "unitPrice": "$51.92 per 1 kg",
+        "price": 6.99,
+        "unitPrice": "$55.92 per 1 kg",
         "wasPrice": null,
         "isSpecial": false,
         "outOfStock": false
@@ -410,11 +391,11 @@
       },
       "blueberries": {
         "name": "Blueberry Punnet",
-        "price": 6.9,
+        "price": 8.9,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$5.52/100g",
+        "cupString": "$7.12/100g",
         "inStock": true
       },
       "milk": {
@@ -428,11 +409,11 @@
       },
       "yoghurt": {
         "name": "Pauls Kids Strawberry Yoghurt Pouch",
-        "price": 1.3,
+        "price": 0.9,
         "wasPrice": null,
-        "isSpecial": false,
-        "savings": null,
-        "cupString": "$1.86/100g",
+        "isSpecial": true,
+        "savings": "30% Off",
+        "cupString": "$1.29/100g",
         "inStock": true
       },
       "cheese_slices": {
@@ -482,11 +463,11 @@
       },
       "tuna": {
         "name": "Sirena Classico Tuna",
-        "price": 7.3,
+        "price": 6.5,
         "wasPrice": null,
-        "isSpecial": false,
-        "savings": "",
-        "cupString": "$1.72/100g",
+        "isSpecial": true,
+        "savings": "Special",
+        "cupString": "$1.53/100g",
         "inStock": true
       },
       "bread": {
@@ -500,11 +481,11 @@
       },
       "vegemite": {
         "name": "Vegemite",
-        "price": 7.7,
+        "price": 8.0,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$2.03/100g",
+        "cupString": "$2.11/100g",
         "inStock": true
       },
       "cucumbers": {
