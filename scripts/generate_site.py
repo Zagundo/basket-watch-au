@@ -39,7 +39,7 @@ if data_is_fresh(TMP_DATA):
     print(f"[{datetime.now(AEST).strftime('%Y-%m-%d %H:%M %Z')}] Fresh data found in {TMP_DATA} — skipping scraper run.")
 else:
     print(f"[{datetime.now(AEST).strftime('%Y-%m-%d %H:%M %Z')}] Running basket tracker...")
-    subprocess.run(['python3', str(TRACKER)], timeout=300)
+    subprocess.run([sys.executable, str(TRACKER)], timeout=300)
 
 raw = json.loads(TMP_DATA.read_text())
 
@@ -362,3 +362,38 @@ sp.run(['git', '-C', repo, 'commit', '-m', f'Basket Watch update — {run_displa
 sp.run(['git', '-C', repo, 'push', 'origin', 'main'], check=True)
 print(f"  ✓ Pushed to GitHub")
 print(f"\n✅ Basket Watch site updated — {run_display}")
+
+# ── Telegram notification ─────────────────────────────────
+import urllib.request, urllib.parse
+
+_sorted = sorted(RETAILERS, key=lambda x: totals[x[0]]['total'])
+_lines = '\n'.join(
+    f"{'🏆' if i == 0 else '  '} {emoji} {label}: ${totals[rid]['total']:.2f}"
+    for i, (rid, emoji, label) in enumerate(_sorted)
+)
+_saving = totals[_sorted[-1][0]]['total'] - totals[_sorted[0][0]]['total']
+_msg = (
+    f"🛒 *Basket Watch — {run_display}*\n\n"
+    f"{_lines}\n\n"
+    f"Save ${_saving:.2f} choosing {_sorted[0][2]} over {_sorted[-1][2]}.\n"
+    f"👉 basket-watch-au.netlify.app"
+)
+
+_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8345164923:AAEWODXbT7Fue658sJxTjpFT57g-Z7SZxZ8")
+_CHAT_ID   = "-1003994639672"
+
+try:
+    _payload = urllib.parse.urlencode({
+        'chat_id': _CHAT_ID,
+        'text': _msg,
+        'parse_mode': 'Markdown',
+        'message_thread_id': '10',
+    }).encode()
+    _req = urllib.request.Request(
+        f"https://api.telegram.org/bot{_BOT_TOKEN}/sendMessage",
+        data=_payload
+    )
+    urllib.request.urlopen(_req, timeout=10)
+    print("  ✓ Telegram notification sent")
+except Exception as e:
+    print(f"  ⚠ Telegram notification failed: {e}")
