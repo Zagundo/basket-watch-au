@@ -193,10 +193,10 @@
       "bananas": {
         "id": 409499,
         "name": "Bananas",
-        "price": 0.77,
+        "price": 0.68,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$4.50/ 1kg",
+        "cupString": "$4.00/ 1kg",
         "inStock": true,
         "size": "approx. 170g",
         "_unit_price": 4.5
