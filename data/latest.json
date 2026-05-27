@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-05-20 21:36 UTC",
+  "run_date": "2026-05-27 21:00 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -8,16 +8,16 @@
         "price": 11.0,
         "wasPrice": 18.7,
         "isSpecial": false,
-        "cupString": "$11.00 / 1KG",
+        "cupString": "$11.00/kg (normalised)",
         "inStock": true
       },
       "carrots": {
         "stockcode": 135369,
         "name": "Woolworths Australian Grown Carrots 1kg",
-        "price": 2.4,
-        "wasPrice": 2.4,
+        "price": 1.7,
+        "wasPrice": 1.7,
         "isSpecial": false,
-        "cupString": "$2.40 / 1KG",
+        "cupString": "$1.70 / 1KG",
         "inStock": true
       },
       "apples": {
@@ -32,10 +32,10 @@
       "bananas": {
         "stockcode": 133211,
         "name": "Cavendish Bananas each",
-        "price": 0.77,
-        "wasPrice": 0.77,
+        "price": 0.88,
+        "wasPrice": 0.88,
         "isSpecial": false,
-        "cupString": "$0.77 / 1EA",
+        "cupString": "$0.88 / 1EA",
         "inStock": true
       },
       "strawberries": {
@@ -50,10 +50,10 @@
       "blueberries": {
         "stockcode": 169792,
         "name": "Blueberries Punnet 125g",
-        "price": 7.5,
-        "wasPrice": 7.5,
+        "price": 7,
+        "wasPrice": 7,
         "isSpecial": false,
-        "cupString": "$60.00 / 1KG",
+        "cupString": "$56.00 / 1KG",
         "inStock": true
       },
       "milk": {
@@ -68,19 +68,19 @@
       "yoghurt": {
         "stockcode": 331445,
         "name": "Vaalia Kids Probiotic Yoghurt Pouch Vanilla 140g",
-        "price": 2.5,
-        "wasPrice": 2.5,
+        "price": 2.55,
+        "wasPrice": 2.55,
         "isSpecial": false,
-        "cupString": "$1.79 / 100G",
+        "cupString": "$1.82 / 100G",
         "inStock": true
       },
       "cheese_slices": {
         "stockcode": 769558,
         "name": "Bega Tasty Cheese Slices 500g",
-        "price": 9.5,
+        "price": 11,
         "wasPrice": 11,
-        "isSpecial": true,
-        "cupString": "$19.00 / 1KG",
+        "isSpecial": false,
+        "cupString": "$22.00 / 1KG",
         "inStock": true
       },
       "ham": {
@@ -149,10 +149,10 @@
       "cucumbers": {
         "stockcode": 169067,
         "name": "Woolworths Qukes Baby Cucumbers Punnet 250g",
-        "price": 3.5,
-        "wasPrice": 3.5,
+        "price": 4,
+        "wasPrice": 4,
         "isSpecial": false,
-        "cupString": "$14.00 / 1KG",
+        "cupString": "$16.00 / 1KG",
         "inStock": true
       }
     },
@@ -193,36 +193,26 @@
       "bananas": {
         "id": 409499,
         "name": "Bananas",
-        "price": 0.82,
+        "price": 0.83,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$4.80/ 1kg",
+        "cupString": "$4.90/ 1kg",
         "inStock": true,
         "size": "approx. 170g",
-        "_unit_price": 4.8
+        "_unit_price": 4.9
       },
       "strawberries": {
         "id": 5191256,
         "name": "Strawberries",
-        "price": 5,
+        "price": 5.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$20.00/ 1kg",
+        "cupString": "$22.00/ 1kg",
         "inStock": true,
         "size": "250g",
-        "_unit_price": 20
+        "_unit_price": 22
       },
-      "blueberries": {
-        "id": 5543535,
-        "name": "Blueberries",
-        "price": 7.5,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$60.00/ 1kg",
-        "inStock": true,
-        "size": "125g",
-        "_unit_price": 60
-      },
+      "blueberries": null,
       "milk": {
         "id": 439693,
         "name": "Full Cream Milk",
@@ -237,13 +227,13 @@
       "yoghurt": {
         "id": 7246869,
         "name": "Kids Yoghurt Pouch Vanilla",
-        "price": 1.5,
-        "wasPrice": 2.5,
-        "isSpecial": true,
-        "cupString": "$1.07/ 100g",
+        "price": 2.55,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$1.82/ 100g",
         "inStock": true,
         "size": "140g",
-        "_unit_price": 1.07
+        "_unit_price": 1.82
       },
       "cheese_slices": {
         "id": 6704811,
@@ -325,24 +315,24 @@
       "vegemite": {
         "id": 5998852,
         "name": "Spread",
-        "price": 7.7,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$2.03/ 100g",
+        "price": 6,
+        "wasPrice": 7.7,
+        "isSpecial": true,
+        "cupString": "$1.58/ 100g",
         "inStock": true,
         "size": "380g",
-        "_unit_price": 2.03
+        "_unit_price": 1.58
       },
       "cucumbers": {
         "id": 4578148,
         "name": "Baby Cucumbers",
-        "price": 3.5,
+        "price": 4,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$14.00/ 1kg",
+        "cupString": "$16.00/ 1kg",
         "inStock": true,
         "size": "250g",
-        "_unit_price": 14
+        "_unit_price": 16
       }
     },
     "aldi": {
@@ -353,132 +343,34 @@
         "inStock": true,
         "isSpecial": false
       },
-      "carrots": {
-        "name": "Carrots 1kg 1 kg",
-        "price": 2.09,
-        "unitPrice": "$2.09 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "apples": {
-        "name": "Royal Gala Apples 1kg 1 kg",
-        "price": 4.79,
-        "unitPrice": "$4.79 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
+      "carrots": null,
+      "apples": null,
       "bananas": {
         "name": "Cavendish Bananas Loose",
-        "price": 0.77,
-        "cupString": "$0.77/ea",
+        "price": 0.81,
+        "cupString": "$0.81/ea",
         "inStock": true,
         "isSpecial": false
       },
       "strawberries": {
         "name": "Strawberries 250g",
-        "price": 4.99,
-        "cupString": "$4.99/ea",
+        "price": 5.49,
+        "cupString": "$5.49/ea",
         "inStock": true,
         "isSpecial": false
       },
-      "blueberries": {
-        "name": "PRODUCE BRANDED Blueberries 125g 0.125 kg",
-        "price": 6.99,
-        "unitPrice": "$55.92 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "milk": {
-        "name": "FARMDALE Full Cream Milk 2L 2 L",
-        "price": 3.55,
-        "unitPrice": "$1.78 per 1 L",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "yoghurt": {
-        "name": "VAALIA Kids Vanilla Yoghurt 140g 140 g",
-        "price": 1.99,
-        "unitPrice": "$1.42 per 100 g",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "cheese_slices": {
-        "name": "WESTACRE DAIRY Tasty Cheese Slices 500g 0.5 kg",
-        "price": 6.99,
-        "unitPrice": "$13.98 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "ham": {
-        "name": "BERG Champagne Leg Ham 100g 0.1 kg",
-        "price": 1.99,
-        "unitPrice": "$19.90 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "weetbix": {
-        "name": "SANITARIUM Weet-Bix 375g 375 g",
-        "price": 3.99,
-        "unitPrice": "$1.06 per 100 g",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "sultanas": {
-        "name": "SWEET VINE Yogurt Coated Sultanas 6 Pack 180g 0.18 kg",
-        "price": 3.69,
-        "unitPrice": "$20.50 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "chips": {
-        "name": "SPRINTERS Crinkle Cut Multipack 20 Pack 380g 380 g",
-        "price": 5.75,
-        "unitPrice": "$1.51 per 100 g",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "tuna": {
-        "name": "PORTVIEW Tuna Chunks in Oil 425g 0.425 kg",
-        "price": 3.29,
-        "unitPrice": "$7.74 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "bread": {
-        "name": "BAKERS LIFE The Best Wholemeal Sandwich Bread 700g 700 g",
-        "price": 3.79,
-        "unitPrice": "$0.54 per 100 g",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "vegemite": {
-        "name": "VEGEMITE Vegemite 370g 370 g",
-        "price": 7.19,
-        "unitPrice": "$1.94 per 100 g",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      },
-      "cucumbers": {
-        "name": "Baby Cucumbers 250g 0.25 kg",
-        "price": 2.99,
-        "unitPrice": "$11.96 per 1 kg",
-        "wasPrice": null,
-        "isSpecial": false,
-        "outOfStock": false
-      }
+      "blueberries": null,
+      "milk": null,
+      "yoghurt": null,
+      "cheese_slices": null,
+      "ham": null,
+      "weetbix": null,
+      "sultanas": null,
+      "chips": null,
+      "tuna": null,
+      "bread": null,
+      "vegemite": null,
+      "cucumbers": null
     },
     "iga": {
       "chicken_breast": {
@@ -501,11 +393,11 @@
       },
       "apples": {
         "name": "Royal Gala Apples",
-        "price": 6.9,
+        "price": 7.9,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$6.90/kg (1kg equiv)",
+        "cupString": "$7.90/kg (1kg equiv)",
         "inStock": true
       },
       "bananas": {
@@ -544,11 +436,11 @@
       },
       "yoghurt": {
         "name": "Pauls Kids Strawberry Yoghurt Pouch",
-        "price": 1.3,
+        "price": 1.35,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$1.86/100g",
+        "cupString": "$1.93/100g",
         "inStock": true
       },
       "cheese_slices": {
@@ -562,11 +454,11 @@
       },
       "ham": {
         "name": "Primo Champagne Leg Ham Thinly Sliced",
-        "price": 4.0,
+        "price": 3.95,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$4.00/100g",
+        "cupString": "$3.95/100g",
         "inStock": true
       },
       "weetbix": {
