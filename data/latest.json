@@ -212,7 +212,16 @@
         "size": "250g",
         "_unit_price": 22
       },
-      "blueberries": null,
+      "blueberries": {
+        "id": 5543535,
+        "name": "Coles Blueberries 125g",
+        "price": 7.0,
+        "wasPrice": null,
+        "isSpecial": false,
+        "cupString": "$56.00/1kg",
+        "inStock": true,
+        "source": "manual verified 2026-05-28 https://www.coles.com.au/product/coles-blueberries-125g-5543535"
+      },
       "milk": {
         "id": 439693,
         "name": "Full Cream Milk",
