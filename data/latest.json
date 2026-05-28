@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-05-27 21:00 UTC",
+  "run_date": "2026-05-28 06:08 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -343,8 +343,22 @@
         "inStock": true,
         "isSpecial": false
       },
-      "carrots": null,
-      "apples": null,
+      "carrots": {
+        "name": "Carrots 1kg 1 kg",
+        "price": 2.09,
+        "unitPrice": "$2.09 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "apples": {
+        "name": "Royal Gala Apples 1kg 1 kg",
+        "price": 4.79,
+        "unitPrice": "$4.79 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
       "bananas": {
         "name": "Cavendish Bananas Loose",
         "price": 0.81,
@@ -359,18 +373,102 @@
         "inStock": true,
         "isSpecial": false
       },
-      "blueberries": null,
-      "milk": null,
-      "yoghurt": null,
-      "cheese_slices": null,
-      "ham": null,
-      "weetbix": null,
-      "sultanas": null,
-      "chips": null,
-      "tuna": null,
-      "bread": null,
-      "vegemite": null,
-      "cucumbers": null
+      "blueberries": {
+        "name": "PRODUCE BRANDED Blueberries 125g 0.125 kg",
+        "price": 6.99,
+        "unitPrice": "$55.92 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "milk": {
+        "name": "FARMDALE Full Cream Milk 2L 2 L",
+        "price": 3.55,
+        "unitPrice": "$1.78 per 1 L",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "yoghurt": {
+        "name": "VAALIA Kids Vanilla Yoghurt 140g 140 g",
+        "price": 1.99,
+        "unitPrice": "$1.42 per 100 g",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "cheese_slices": {
+        "name": "WESTACRE DAIRY Tasty Cheese Slices 500g 0.5 kg",
+        "price": 6.99,
+        "unitPrice": "$13.98 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "ham": {
+        "name": "BERG Champagne Leg Ham 100g 0.1 kg",
+        "price": 1.99,
+        "unitPrice": "$19.90 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "weetbix": {
+        "name": "SANITARIUM Weet-Bix 375g 375 g",
+        "price": 3.99,
+        "unitPrice": "$1.06 per 100 g",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "sultanas": {
+        "name": "SWEET VINE Yogurt Coated Sultanas 6 Pack 180g 0.18 kg",
+        "price": 3.69,
+        "unitPrice": "$20.50 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "chips": {
+        "name": "SPRINTERS Crinkle Cut Multipack 20 Pack 380g 380 g",
+        "price": 5.75,
+        "unitPrice": "$1.51 per 100 g",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "tuna": {
+        "name": "PORTVIEW Tuna Chunks in Oil 425g 0.425 kg",
+        "price": 3.29,
+        "unitPrice": "$7.74 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "bread": {
+        "name": "BAKERS LIFE The Best Wholemeal Sandwich Bread 700g 700 g",
+        "price": 3.79,
+        "unitPrice": "$0.54 per 100 g",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "vegemite": {
+        "name": "VEGEMITE Vegemite 370g 370 g",
+        "price": 7.19,
+        "unitPrice": "$1.94 per 100 g",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      },
+      "cucumbers": {
+        "name": "Baby Cucumbers 250g 0.25 kg",
+        "price": 3.49,
+        "unitPrice": "$13.96 per 1 kg",
+        "wasPrice": null,
+        "isSpecial": false,
+        "outOfStock": false
+      }
     },
     "iga": {
       "chicken_breast": {
@@ -436,11 +534,11 @@
       },
       "yoghurt": {
         "name": "Pauls Kids Strawberry Yoghurt Pouch",
-        "price": 1.35,
+        "price": 1.25,
         "wasPrice": null,
-        "isSpecial": false,
-        "savings": null,
-        "cupString": "$1.93/100g",
+        "isSpecial": true,
+        "savings": "Special",
+        "cupString": "$1.79/100g",
         "inStock": true
       },
       "cheese_slices": {
