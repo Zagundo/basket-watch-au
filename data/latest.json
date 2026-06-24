@@ -1,23 +1,15 @@
 {
-  "run_date": "2026-06-17 21:00 UTC",
+  "run_date": "2026-06-24 21:00 UTC",
   "results": {
     "woolworths": {
-      "chicken_breast": {
-        "stockcode": 969723,
-        "name": "Woolworths RSPCA Approved Chicken Breast Fillet 1.3kg - 1.7kg",
-        "price": 11.0,
-        "wasPrice": 18.7,
-        "isSpecial": false,
-        "cupString": "$11.00/kg (normalised)",
-        "inStock": true
-      },
+      "chicken_breast": null,
       "carrots": {
         "stockcode": 135369,
         "name": "Woolworths Australian Grown Carrots 1kg",
-        "price": 1.7,
-        "wasPrice": 1.7,
+        "price": 2.4,
+        "wasPrice": 2.4,
         "isSpecial": false,
-        "cupString": "$1.70 / 1KG",
+        "cupString": "$2.40 / 1KG",
         "inStock": true
       },
       "apples": {
@@ -50,10 +42,10 @@
       "blueberries": {
         "stockcode": 169792,
         "name": "Blueberries Punnet 125g",
-        "price": 5.5,
-        "wasPrice": 5.5,
+        "price": 6.5,
+        "wasPrice": 6.5,
         "isSpecial": false,
-        "cupString": "$44.00 / 1KG",
+        "cupString": "$52.00 / 1KG",
         "inStock": true
       },
       "milk": {
@@ -68,19 +60,19 @@
       "yoghurt": {
         "stockcode": 331445,
         "name": "Vaalia Kids Probiotic Yoghurt Pouch Vanilla 140g",
-        "price": 2.55,
+        "price": 1.55,
         "wasPrice": 2.55,
-        "isSpecial": false,
-        "cupString": "$1.82 / 100G",
+        "isSpecial": true,
+        "cupString": "$1.11 / 100G",
         "inStock": true
       },
       "cheese_slices": {
         "stockcode": 769558,
         "name": "Bega Tasty Cheese Slices 500g",
-        "price": 10.7,
+        "price": 11.8,
         "wasPrice": 11.8,
-        "isSpecial": true,
-        "cupString": "$21.40 / 1KG",
+        "isSpecial": false,
+        "cupString": "$23.60 / 1KG",
         "inStock": true
       },
       "ham": {
@@ -122,10 +114,10 @@
       "tuna": {
         "stockcode": 91981,
         "name": "Sirena Tuna In Oil Italian Style 425g",
-        "price": 6.5,
+        "price": 7.5,
         "wasPrice": 7.5,
-        "isSpecial": true,
-        "cupString": "$15.29 / 1KG",
+        "isSpecial": false,
+        "cupString": "$17.65 / 1KG",
         "inStock": true
       },
       "bread": {
@@ -140,19 +132,19 @@
       "vegemite": {
         "stockcode": 796439,
         "name": "Vegemite Spread 380g",
-        "price": 6,
+        "price": 7.7,
         "wasPrice": 7.7,
-        "isSpecial": true,
-        "cupString": "$1.58 / 100G",
+        "isSpecial": false,
+        "cupString": "$2.03 / 100G",
         "inStock": true
       },
       "cucumbers": {
         "stockcode": 169067,
         "name": "Woolworths Qukes Baby Cucumbers Punnet 250g",
-        "price": 4,
-        "wasPrice": 4,
+        "price": 4.2,
+        "wasPrice": 4.2,
         "isSpecial": false,
-        "cupString": "$16.00 / 1KG",
+        "cupString": "$16.80 / 1KG",
         "inStock": true
       }
     },
@@ -204,24 +196,24 @@
       "strawberries": {
         "id": 5191256,
         "name": "Strawberries",
-        "price": 6,
+        "price": 5.7,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$24.00/ 1kg",
+        "cupString": "$22.80/ 1kg",
         "inStock": true,
         "size": "250g",
-        "_unit_price": 24
+        "_unit_price": 22.8
       },
       "blueberries": {
         "id": 5543535,
         "name": "Blueberries",
-        "price": 6,
+        "price": 5.5,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$48.00/ 1kg",
+        "cupString": "$44.00/ 1kg",
         "inStock": true,
         "size": "125g",
-        "_unit_price": 48
+        "_unit_price": 44
       },
       "milk": {
         "id": 439693,
@@ -428,11 +420,11 @@
       },
       "blueberries": {
         "name": "Blueberry Punnet",
-        "price": 6.9,
+        "price": 7.9,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "Special",
-        "cupString": "$5.52/100g",
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$6.32/100g",
         "inStock": true
       },
       "milk": {
@@ -481,12 +473,12 @@
         "inStock": true
       },
       "sultanas": {
-        "name": "Purina One Urinary Health Pet Food Adult Tract Chicken Multipack",
-        "price": 15.2,
+        "name": "Quick-Eze Tablet Original Stick Pack",
+        "price": 3.55,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "Special",
-        "cupString": "$21.71/100g",
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$14.20/100g",
         "inStock": true
       },
       "chips": {
@@ -518,20 +510,20 @@
       },
       "vegemite": {
         "name": "Vegemite",
-        "price": 7.6,
+        "price": 6.05,
         "wasPrice": null,
         "isSpecial": true,
-        "savings": "Special",
-        "cupString": "$2.00/100g",
+        "savings": "25% Off",
+        "cupString": "$1.59/100g",
         "inStock": true
       },
       "cucumbers": {
         "name": "Always Fresh Baby Cucumbers",
-        "price": 6.7,
+        "price": 6.85,
         "wasPrice": null,
         "isSpecial": false,
         "savings": null,
-        "cupString": "$0.99/100g",
+        "cupString": "$1.01/100g",
         "inStock": true
       }
     }
