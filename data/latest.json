@@ -1,32 +1,24 @@
 {
-  "run_date": "2026-07-13 03:37 UTC",
+  "run_date": "2026-07-13 03:39 UTC",
   "results": {
     "woolworths": {
-      "chicken_breast": {
-        "stockcode": 969723,
-        "name": "Woolworths RSPCA Approved Chicken Breast Fillet 1.3kg - 1.7kg",
-        "price": 11.0,
-        "wasPrice": null,
-        "isSpecial": false,
-        "cupString": "$11.00/kg (cloud)",
-        "inStock": true
-      },
+      "chicken_breast": null,
       "carrots": {
         "stockcode": 135369,
         "name": "Woolworths Australian Grown Carrots 1kg",
         "price": 2.4,
-        "wasPrice": null,
+        "wasPrice": 2.4,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$2.40 / 1KG",
         "inStock": true
       },
       "apples": {
         "stockcode": 314012,
         "name": "Woolworths Royal Gala Apple Punnet 1kg",
         "price": 4.9,
-        "wasPrice": null,
+        "wasPrice": 4.9,
         "isSpecial": false,
-        "cupString": null,
+        "cupString": "$4.90 / 1KG",
         "inStock": true
       },
       "bananas": {
@@ -157,193 +149,32 @@
       }
     },
     "coles": {
-      "chicken_breast": {
-        "id": 2263179,
-        "name": "RSPCA Approved Chicken Breast Fillets Large Pack",
-        "price": 11,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$11.00/kg",
-        "inStock": true,
-        "size": "approx. 1.4kg",
-        "_unit_price": 11
-      },
-      "carrots": {
-        "id": 9006560,
-        "name": "Carrots",
-        "price": 1.7,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$1.70/ 1kg",
-        "inStock": true,
-        "size": "1Kg",
-        "_unit_price": 1.7
-      },
-      "apples": {
-        "id": 4433462,
-        "name": "Royal Gala Apples 1kg",
-        "price": 5.9,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$5.90/ 1kg",
-        "inStock": true,
-        "size": "1 each",
-        "_unit_price": 5.9
-      },
-      "bananas": {
-        "id": 409499,
-        "name": "Bananas",
-        "price": 0.83,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$4.90/ 1kg",
-        "inStock": true,
-        "size": "approx. 170g",
-        "_unit_price": 4.9
-      },
-      "strawberries": {
-        "id": 5191256,
-        "name": "Strawberries",
-        "price": 5.7,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$22.80/ 1kg",
-        "inStock": true,
-        "size": "250g",
-        "_unit_price": 22.8
-      },
+      "chicken_breast": null,
+      "carrots": null,
+      "apples": null,
+      "bananas": null,
+      "strawberries": null,
       "blueberries": {
         "id": 5543535,
-        "name": "Blueberries",
-        "price": 4,
-        "wasPrice": 0,
+        "name": "Coles Blueberries 125g",
+        "price": 7.0,
+        "wasPrice": null,
         "isSpecial": false,
-        "cupString": "$32.00/ 1kg",
+        "cupString": "$56.00/1kg",
         "inStock": true,
-        "size": "125g",
-        "_unit_price": 32
+        "source": "manual verified 2026-05-28 https://www.coles.com.au/product/coles-blueberries-125g-5543535"
       },
-      "milk": {
-        "id": 439693,
-        "name": "Full Cream Milk",
-        "price": 3.55,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$1.78/ 1L",
-        "inStock": true,
-        "size": "2L",
-        "_unit_price": 1.77
-      },
-      "yoghurt": {
-        "id": 7246869,
-        "name": "Kids Yoghurt Pouch Vanilla",
-        "price": 2.55,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$1.82/ 100g",
-        "inStock": true,
-        "size": "140g",
-        "_unit_price": 1.82
-      },
-      "cheese_slices": {
-        "id": 6704811,
-        "name": "Cheese Natural Slices Tasty",
-        "price": 10.2,
-        "wasPrice": 11.8,
-        "isSpecial": true,
-        "cupString": "$20.40/ 1kg",
-        "inStock": true,
-        "size": "500g",
-        "_unit_price": 20.4
-      },
-      "ham": {
-        "id": 3055086,
-        "name": "Champagne Leg Ham",
-        "price": 3.95,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$39.50/ 1kg",
-        "inStock": true,
-        "size": "100g",
-        "_unit_price": 39.5
-      },
-      "weetbix": {
-        "id": 133117,
-        "name": "Weet-bix Breakfast Cereal",
-        "price": 4,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$1.07/ 100g",
-        "inStock": true,
-        "size": "375g",
-        "_unit_price": 1.07
-      },
-      "sultanas": {
-        "id": 145604,
-        "name": "Sultanas Snack Pack",
-        "price": 3.7,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$15.42/ 1kg",
-        "inStock": true,
-        "size": "240g",
-        "_unit_price": 15.42
-      },
-      "chips": {
-        "id": 4843850,
-        "name": "Variety Potato Chips 20 Pack",
-        "price": 7.5,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$2.00/ 100g",
-        "inStock": true,
-        "size": "375g",
-        "_unit_price": 2
-      },
-      "tuna": {
-        "id": 390572,
-        "name": "Tuna in Oil Italian Style",
-        "price": 7.5,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$17.65/ 1kg",
-        "inStock": true,
-        "size": "425g",
-        "_unit_price": 17.65
-      },
-      "bread": {
-        "id": 1139480,
-        "name": "The One Wholemeal Sandwich Bread",
-        "price": 4.7,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$0.67/ 100g",
-        "inStock": true,
-        "size": "700g",
-        "_unit_price": 0.67
-      },
-      "vegemite": {
-        "id": 5998852,
-        "name": "Spread",
-        "price": 6,
-        "wasPrice": 7.8,
-        "isSpecial": true,
-        "cupString": "$1.58/ 100g",
-        "inStock": true,
-        "size": "380g",
-        "_unit_price": 1.58
-      },
-      "cucumbers": {
-        "id": 4578148,
-        "name": "Baby Cucumbers",
-        "price": 3,
-        "wasPrice": 0,
-        "isSpecial": false,
-        "cupString": "$12.00/ 1kg",
-        "inStock": true,
-        "size": "250g",
-        "_unit_price": 12
-      }
+      "milk": null,
+      "yoghurt": null,
+      "cheese_slices": null,
+      "ham": null,
+      "weetbix": null,
+      "sultanas": null,
+      "chips": null,
+      "tuna": null,
+      "bread": null,
+      "vegemite": null,
+      "cucumbers": null
     },
     "aldi": {
       "chicken_breast": {
