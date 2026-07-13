@@ -366,9 +366,14 @@ print(f"  ✓ public/index.html written")
 import subprocess as sp
 repo = str(REPO_DIR)
 sp.run(['git', '-C', repo, 'add', '-A'], check=True)
-sp.run(['git', '-C', repo, 'commit', '-m', f'Basket Watch update — {run_display}'], check=True)
-sp.run(['git', '-C', repo, 'push', 'origin', 'main'], check=True)
-print(f"  ✓ Pushed to GitHub")
+status = sp.run(['git', '-C', repo, 'status', '--porcelain'], capture_output=True, text=True)
+if status.stdout.strip():
+    sp.run(['git', '-C', repo, 'commit', '-m', f'Basket Watch update — {run_display}'], check=True)
+    sp.run(['git', '-C', repo, 'push', 'origin', 'main'], check=True)
+    print(f"  ✓ Pushed to GitHub")
+else:
+    print(f"  ✓ No changes to push (data unchanged)")
+    sp.run(['git', '-C', repo, 'push', 'origin', 'main'])  # push anyway in case of missed push
 print(f"\n✅ Basket Watch site updated — {run_display}")
 
 # ── Telegram notification ─────────────────────────────────

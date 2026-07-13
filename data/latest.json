@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-07-13 03:39 UTC",
+  "run_date": "2026-07-13 04:10 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": null,
@@ -149,7 +149,18 @@
       }
     },
     "coles": {
-      "chicken_breast": null,
+      "chicken_breast": {
+        "id": "chicken_breast",
+        "coles_id": 2263179,
+        "name": "RSPCA Approved Chicken Breast Fillets Large Pack",
+        "price": 11,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$11.00/kg",
+        "unit_price": 11,
+        "inStock": true,
+        "size": "approx. 1.4kg"
+      },
       "carrots": null,
       "apples": null,
       "bananas": null,
