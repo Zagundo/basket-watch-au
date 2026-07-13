@@ -3,12 +3,12 @@
   "results": {
     "woolworths": {
       "chicken_breast": {
-        "stockcode": 114263,
-        "name": "Woolworths RSPCA Approved Chicken Single Breast Fillet 300g",
-        "price": 18.33,
-        "wasPrice": 5.5,
+        "stockcode": 964093,
+        "name": "Woolworths RSPCA Approved Chicken Breast Fillet 1.1kg - 1.65kg",
+        "price": 11.0,
+        "wasPrice": null,
         "isSpecial": false,
-        "cupString": "$18.33 / 1KG",
+        "cupString": "$11.00 / 1KG",
         "inStock": true
       },
       "carrots": {
