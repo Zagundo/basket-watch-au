@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-07-22 21:00 UTC",
+  "run_date": "2026-07-29 21:00 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -14,10 +14,10 @@
       "carrots": {
         "stockcode": 135369,
         "name": "Woolworths Australian Grown Carrots 1kg",
-        "price": 1.7,
-        "wasPrice": 1.7,
+        "price": 2.4,
+        "wasPrice": 2.4,
         "isSpecial": false,
-        "cupString": "$1.70 / 1KG",
+        "cupString": "$2.40 / 1KG",
         "inStock": true
       },
       "apples": {
@@ -41,19 +41,19 @@
       "strawberries": {
         "stockcode": 144607,
         "name": "Strawberries Punnet 250g",
-        "price": 5,
-        "wasPrice": 5,
+        "price": 3.9,
+        "wasPrice": 3.9,
         "isSpecial": false,
-        "cupString": "$20.00 / 1KG",
+        "cupString": "$15.60 / 1KG",
         "inStock": true
       },
       "blueberries": {
         "stockcode": 169792,
         "name": "Blueberries Punnet 125g",
-        "price": 3,
-        "wasPrice": 3,
+        "price": 3.7,
+        "wasPrice": 3.7,
         "isSpecial": false,
-        "cupString": "$24.00 / 1KG",
+        "cupString": "$29.60 / 1KG",
         "inStock": true
       },
       "milk": {
@@ -68,19 +68,19 @@
       "yoghurt": {
         "stockcode": 331445,
         "name": "Vaalia Kids Probiotic Yoghurt Pouch Vanilla 140g",
-        "price": 1.55,
+        "price": 2.55,
         "wasPrice": 2.55,
-        "isSpecial": true,
-        "cupString": "$1.11 / 100G",
+        "isSpecial": false,
+        "cupString": "$1.82 / 100G",
         "inStock": true
       },
       "cheese_slices": {
         "stockcode": 769558,
         "name": "Bega Tasty Cheese Slices 500g",
-        "price": 11.8,
+        "price": 10.2,
         "wasPrice": 11.8,
-        "isSpecial": false,
-        "cupString": "$23.60 / 1KG",
+        "isSpecial": true,
+        "cupString": "$20.40 / 1KG",
         "inStock": true
       },
       "ham": {
@@ -131,19 +131,19 @@
       "bread": {
         "stockcode": 749588,
         "name": "Tip Top The One Wholemeal Bread Sandwich Slice Loaf Bakery 700g",
-        "price": 4.7,
-        "wasPrice": 4.7,
+        "price": 4.6,
+        "wasPrice": 4.6,
         "isSpecial": false,
-        "cupString": "$0.67 / 100G",
+        "cupString": "$0.66 / 100G",
         "inStock": true
       },
       "vegemite": {
         "stockcode": 796439,
         "name": "Vegemite Spread 380g",
-        "price": 7.7,
+        "price": 6,
         "wasPrice": 7.7,
-        "isSpecial": false,
-        "cupString": "$2.03 / 100G",
+        "isSpecial": true,
+        "cupString": "$1.58 / 100G",
         "inStock": true
       },
       "cucumbers": {
@@ -185,11 +185,11 @@
         "id": "apples",
         "coles_id": 4433462,
         "name": "Royal Gala Apples 1kg",
-        "price": 5.9,
+        "price": 7.9,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$5.90/ 1kg",
-        "unit_price": 5.9,
+        "cupString": "$7.90/ 1kg",
+        "unit_price": 7.9,
         "inStock": true,
         "size": "1 each"
       },
@@ -209,11 +209,11 @@
         "id": "strawberries",
         "coles_id": 5191256,
         "name": "Strawberries",
-        "price": 5,
+        "price": 4,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$20.00/ 1kg",
-        "unit_price": 20,
+        "cupString": "$16.00/ 1kg",
+        "unit_price": 16,
         "inStock": true,
         "size": "250g"
       },
@@ -221,11 +221,11 @@
         "id": "blueberries",
         "coles_id": 5543535,
         "name": "Blueberries",
-        "price": 4,
+        "price": 3.7,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$32.00/ 1kg",
-        "unit_price": 32,
+        "cupString": "$29.60/ 1kg",
+        "unit_price": 29.6,
         "inStock": true,
         "size": "125g"
       },
@@ -293,11 +293,11 @@
         "id": "sultanas",
         "coles_id": 145604,
         "name": "Sultanas Snack Pack",
-        "price": 2.9,
-        "wasPrice": 3.7,
-        "isSpecial": true,
-        "cupString": "$12.08/ 1kg",
-        "unit_price": 12.08,
+        "price": 3.7,
+        "wasPrice": 0,
+        "isSpecial": false,
+        "cupString": "$15.42/ 1kg",
+        "unit_price": 15.42,
         "inStock": true,
         "size": "240g"
       },
@@ -329,11 +329,11 @@
         "id": "bread",
         "coles_id": 1139480,
         "name": "The One Wholemeal Sandwich Bread",
-        "price": 4.7,
+        "price": 4.6,
         "wasPrice": 0,
         "isSpecial": false,
-        "cupString": "$0.67/ 100g",
-        "unit_price": 0.67,
+        "cupString": "$0.66/ 100g",
+        "unit_price": 0.66,
         "inStock": true,
         "size": "700g"
       },
@@ -372,8 +372,8 @@
       },
       "carrots": {
         "name": "Carrots 1kg 1 kg",
-        "price": 1.69,
-        "unitPrice": "$1.69 per 1 kg",
+        "price": 1.99,
+        "unitPrice": "$1.99 per 1 kg",
         "wasPrice": null,
         "isSpecial": false,
         "outOfStock": false
@@ -395,8 +395,8 @@
       },
       "strawberries": {
         "name": "Strawberries 250g",
-        "price": 4.99,
-        "cupString": "$4.99/ea",
+        "price": 3.99,
+        "cupString": "$3.99/ea",
         "inStock": true,
         "isSpecial": false
       },
@@ -527,11 +527,11 @@
       },
       "bananas": {
         "name": "Bananas",
-        "price": 3.15,
+        "price": 4.41,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "25% Off",
-        "cupString": "$3.50/kg \u00d7 0.9kg (\u00d75 equiv)",
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$4.90/kg \u00d7 0.9kg (\u00d75 equiv)",
         "inStock": true,
         "bananCalc": true,
         "qty_override": 1
@@ -543,11 +543,11 @@
       },
       "blueberries": {
         "name": "Blueberry Punnet",
-        "price": 6.0,
+        "price": 3.5,
         "wasPrice": null,
         "isSpecial": true,
-        "savings": "20% Off",
-        "cupString": "$4.80/100g",
+        "savings": "Better than 1/2 Price",
+        "cupString": "$2.80/100g",
         "inStock": true
       },
       "milk": {
@@ -561,20 +561,20 @@
       },
       "yoghurt": {
         "name": "Pauls Kids Strawberry Yoghurt Pouch",
-        "price": 1.05,
+        "price": 1.4,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "25% Off",
-        "cupString": "$1.50/100g",
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$2.00/100g",
         "inStock": true
       },
       "cheese_slices": {
         "name": "Bega Farmers' Tasty Natural Cheese Slices",
-        "price": 10.7,
+        "price": 11.8,
         "wasPrice": null,
-        "isSpecial": true,
-        "savings": "Special",
-        "cupString": "$2.14/100g",
+        "isSpecial": false,
+        "savings": null,
+        "cupString": "$2.36/100g",
         "inStock": true
       },
       "ham": {
