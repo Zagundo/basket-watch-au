@@ -392,21 +392,24 @@ _msg = (
     f"👉 basket-watch-au.netlify.app"
 )
 
-_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8345164923:AAEWODXbT7Fue658sJxTjpFT57g-Z7SZxZ8")
+_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
 _CHAT_ID   = "-1003994639672"
 
-try:
-    _payload = urllib.parse.urlencode({
-        'chat_id': _CHAT_ID,
-        'text': _msg,
-        'parse_mode': 'Markdown',
-        'message_thread_id': '10',
-    }).encode()
-    _req = urllib.request.Request(
-        f"https://api.telegram.org/bot{_BOT_TOKEN}/sendMessage",
-        data=_payload
-    )
-    urllib.request.urlopen(_req, timeout=10)
-    print("  ✓ Telegram notification sent")
-except Exception as e:
-    print(f"  ⚠ Telegram notification failed: {e}")
+if not _BOT_TOKEN:
+    print("  ⚠ Telegram notification skipped: TELEGRAM_BOT_TOKEN env var not set")
+else:
+    try:
+        _payload = urllib.parse.urlencode({
+            'chat_id': _CHAT_ID,
+            'text': _msg,
+            'parse_mode': 'Markdown',
+            'message_thread_id': '10',
+        }).encode()
+        _req = urllib.request.Request(
+            f"https://api.telegram.org/bot{_BOT_TOKEN}/sendMessage",
+            data=_payload
+        )
+        urllib.request.urlopen(_req, timeout=10)
+        print("  ✓ Telegram notification sent")
+    except Exception as e:
+        print(f"  ⚠ Telegram notification failed: {e}")
