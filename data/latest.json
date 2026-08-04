@@ -1,5 +1,5 @@
 {
-  "run_date": "2026-07-29 21:00 UTC",
+  "run_date": "2026-08-04 00:40 UTC",
   "results": {
     "woolworths": {
       "chicken_breast": {
@@ -395,8 +395,8 @@
       },
       "strawberries": {
         "name": "Strawberries 250g",
-        "price": 3.99,
-        "cupString": "$3.99/ea",
+        "price": 3.79,
+        "cupString": "$3.79/ea",
         "inStock": true,
         "isSpecial": false
       },
