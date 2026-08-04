@@ -38,3 +38,27 @@ To scope a version for **Home & Essential Foods**, here's what would need decidi
 ## The pricing-fairness rule (learned the hard way)
 
 Anything priced by weight (chicken, mince, cheese, etc.) **must be compared on a $/kg basis across all retailers**, not pack price vs pack price — different retailers sell different pack sizes of the "same" product, so raw pack price comparisons are misleading. This was a live bug in an early version and is now enforced as a rule in the underlying tooling. Worth building in from day one for any category variant, especially one with as many by-weight items as Home & Essential Foods likely has.
+
+---
+
+## For Developers — building your own version without OpenClaw
+
+None of this actually depends on OpenClaw. OpenClaw is just what calls these scripts on a schedule; every script is plain Python.
+
+**Fully portable, zero special tooling required:**
+- Coles fetching — plain `urllib` HTTP calls to Coles' public Next.js data API (`_next/data/.../search/products.json`). Runs anywhere Python runs.
+- CSV → JSON schema building (`build_crest_schema.py`) — pure Python, no external dependencies at all.
+- Git + Netlify publishing — fully generic; any machine with `git` installed can do this.
+
+**Needs browser automation, but nothing OpenClaw-specific:**
+- ALDI — uses [Playwright](https://playwright.dev) directly (`pip install playwright`), a standard open-source browser automation library. No special access required.
+- Woolworths — the one exception. This repo uses `browser-harness`, a small standalone CLI that drives a real Chrome tab over CDP (Chrome DevTools Protocol) specifically to get past Woolworths' Akamai bot-detection, which blocks plain HTTP requests and even blocks some headless-browser fingerprints. A developer without that tool has two options:
+  1. Install `browser-harness` independently (it's a standalone package, not bundled inside OpenClaw), or
+  2. Rewrite the WW fetch using plain Playwright with a real (non-headless) browser profile, the same pattern used for ALDI — more fragile against Akamai, but workable, especially at low request volumes.
+
+**What's actually OpenClaw-specific: just the scheduling.**
+The only OpenClaw-dependent piece is the trigger that runs `python3 script.py && python3 script2.py && git push` every Thursday morning. Anyone rebuilding this without OpenClaw has two straightforward alternatives:
+- A plain `cron` entry on any machine that's reliably powered on, or
+- A **GitHub Actions scheduled workflow** (`on: schedule`) — free for public repos, runs entirely on GitHub's infrastructure, no local machine required at all. Probably the easiest option for a category team without a dedicated always-on server.
+
+**Bottom line for a developer inheriting this:** the pattern is 100% forkable — fetch script per retailer → normalise to a common unit basis (see pricing-fairness rule above) → render to static HTML → push → auto-deploy. Swap in your category's SKUs, swap Woolworths' fetch method if Akamai is a blocker, and point the scheduler at GitHub Actions instead of a personal cron job.
