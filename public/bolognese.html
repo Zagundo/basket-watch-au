@@ -133,7 +133,7 @@
       <li>10-item Spaghetti Bolognese meal basket — ingredients for a family dinner (serves 4)</li>
       <li><strong>Traditional</strong>: prefers familiar name brands, doesn't switch for price</li>
       <li><strong>Saver</strong>: chooses own-brand / cheapest available per item</li>
-      <li>Prices fetched live at 13 August 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
+      <li>Prices fetched live at 20 August 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
       <li>N/A = product genuinely not stocked at that retailer for that persona</li>
       <li>Basket totals include only priced items (N/A items excluded)</li>
     </ul>
@@ -142,13 +142,13 @@
 </div>
 
 <footer>
-  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 13 August 2026</p>
+  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 20 August 2026</p>
   <p style="margin-top:0.4rem;">Prices are online prices only. Not affiliated with any supermarket.</p>
 </footer>
 
 <script>
 window.BOLOGNESE_DATA = {
-  "runDate": "13 August 2026",
+  "runDate": "20 August 2026",
   "personas": {
     "traditional": {
       "label": "Traditional",
@@ -173,8 +173,9 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Spaghetti 500g",
           "ww": {
-            "price": 2.95,
-            "label": "San Remo Spaghetti Pasta No 5 500g"
+            "price": 2.3,
+            "label": "San Remo Spaghetti Pasta No 5 500g",
+            "isSpecial": true
           },
           "coles": {
             "notFound": true
@@ -201,9 +202,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Tomato Paste",
           "ww": {
-            "price": 3.1,
-            "label": "Leggo's Australian Grown Tomato Paste Triple Concentrate Tub 140g x 2 pack",
-            "isSpecial": true
+            "price": 3.5,
+            "label": "Leggo's Australian Grown Tomato Paste Triple Concentrate Tub 140g x 2 pack"
           },
           "coles": {
             "notFound": true
@@ -230,21 +230,22 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 12.5,
-            "label": "Mushrooms Cups Loose per 200g"
+            "price": 11.5,
+            "label": "Mushrooms Cups Loose per 200g",
+            "isSpecial": true
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 3.49,
+            "price": 2.99,
             "label": "White Cup Mushrooms 200g"
           }
         },
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 2.4,
+            "price": 1.7,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
@@ -375,21 +376,22 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 12.5,
-            "label": "Mushrooms Cups Loose per 200g"
+            "price": 11.5,
+            "label": "Mushrooms Cups Loose per 200g",
+            "isSpecial": true
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 3.49,
+            "price": 2.99,
             "label": "White Cup Mushrooms 200g"
           }
         },
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 2.4,
+            "price": 1.7,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
@@ -553,7 +555,7 @@ function render() {
     </tr>`;
 
   document.getElementById('ww-note').innerHTML =
-    `<strong>ℹ️ Woolworths prices:</strong> 18/20 live-fetched 13 August 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
+    `<strong>ℹ️ Woolworths prices:</strong> 18/20 live-fetched 20 August 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
 }
 
 // Initial render
