@@ -133,7 +133,7 @@
       <li>10-item Spaghetti Bolognese meal basket — ingredients for a family dinner (serves 4)</li>
       <li><strong>Traditional</strong>: prefers familiar name brands, doesn't switch for price</li>
       <li><strong>Saver</strong>: chooses own-brand / cheapest available per item</li>
-      <li>Prices fetched live at 20 August 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
+      <li>Prices fetched live at 27 August 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
       <li>N/A = product genuinely not stocked at that retailer for that persona</li>
       <li>Basket totals include only priced items (N/A items excluded)</li>
     </ul>
@@ -142,13 +142,13 @@
 </div>
 
 <footer>
-  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 20 August 2026</p>
+  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 27 August 2026</p>
   <p style="margin-top:0.4rem;">Prices are online prices only. Not affiliated with any supermarket.</p>
 </footer>
 
 <script>
 window.BOLOGNESE_DATA = {
-  "runDate": "20 August 2026",
+  "runDate": "27 August 2026",
   "personas": {
     "traditional": {
       "label": "Traditional",
@@ -173,9 +173,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Spaghetti 500g",
           "ww": {
-            "price": 2.3,
-            "label": "San Remo Spaghetti Pasta No 5 500g",
-            "isSpecial": true
+            "price": 2.95,
+            "label": "San Remo Spaghetti Pasta No 5 500g"
           },
           "coles": {
             "notFound": true
@@ -223,29 +222,28 @@ window.BOLOGNESE_DATA = {
             "notFound": true
           },
           "aldi": {
-            "price": 2.99,
+            "price": 1.99,
             "label": "Brown Onions 1kg"
           }
         },
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 11.5,
-            "label": "Mushrooms Cups Loose per 200g",
-            "isSpecial": true
+            "price": 12.5,
+            "label": "Mushrooms Cups Loose per 200g"
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 2.99,
+            "price": 3.49,
             "label": "White Cup Mushrooms 200g"
           }
         },
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 1.7,
+            "price": 2,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
@@ -259,7 +257,7 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Parmesan Cheese",
           "ww": {
-            "price": 5.7,
+            "price": 5.4,
             "label": "Woolworths Shaved Parmesan 250g"
           },
           "coles": {
@@ -287,7 +285,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Olive Oil",
           "ww": {
-            "notFound": true
+            "price": 16,
+            "label": "Moro Primero Extra Virgin Olive Oil 500mL"
           },
           "coles": {
             "notFound": true
@@ -369,29 +368,28 @@ window.BOLOGNESE_DATA = {
             "notFound": true
           },
           "aldi": {
-            "price": 2.99,
+            "price": 1.99,
             "label": "Brown Onions 1kg"
           }
         },
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 11.5,
-            "label": "Mushrooms Cups Loose per 200g",
-            "isSpecial": true
+            "price": 12.5,
+            "label": "Mushrooms Cups Loose per 200g"
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 2.99,
+            "price": 3.49,
             "label": "White Cup Mushrooms 200g"
           }
         },
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 1.7,
+            "price": 2,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
@@ -433,8 +431,9 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Olive Oil",
           "ww": {
-            "price": 9,
-            "label": "Woolworths Spanish Extra Virgin Olive Oil 500mL"
+            "price": 7,
+            "label": "Woolworths Spanish Extra Virgin Olive Oil 500mL",
+            "isSpecial": true
           },
           "coles": {
             "notFound": true
@@ -555,7 +554,7 @@ function render() {
     </tr>`;
 
   document.getElementById('ww-note').innerHTML =
-    `<strong>ℹ️ Woolworths prices:</strong> 18/20 live-fetched 20 August 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
+    `<strong>ℹ️ Woolworths prices:</strong> 19/20 live-fetched 27 August 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
 }
 
 // Initial render
