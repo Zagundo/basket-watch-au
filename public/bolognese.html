@@ -133,7 +133,7 @@
       <li>10-item Spaghetti Bolognese meal basket — ingredients for a family dinner (serves 4)</li>
       <li><strong>Traditional</strong>: prefers familiar name brands, doesn't switch for price</li>
       <li><strong>Saver</strong>: chooses own-brand / cheapest available per item</li>
-      <li>Prices fetched live at 3 September 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
+      <li>Prices fetched live at 10 September 2026 — Woolworths via CDP harness, Coles &amp; ALDI via search/product API</li>
       <li>N/A = product genuinely not stocked at that retailer for that persona</li>
       <li>Basket totals include only priced items (N/A items excluded)</li>
     </ul>
@@ -142,13 +142,13 @@
 </div>
 
 <footer>
-  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 3 September 2026</p>
+  <p>Basket Watch &mdash; built by <a href="https://sjtracey.com">Simon Tracey</a> &mdash; data captured 10 September 2026</p>
   <p style="margin-top:0.4rem;">Prices are online prices only. Not affiliated with any supermarket.</p>
 </footer>
 
 <script>
 window.BOLOGNESE_DATA = {
-  "runDate": "3 September 2026",
+  "runDate": "10 September 2026",
   "personas": {
     "traditional": {
       "label": "Traditional",
@@ -194,7 +194,7 @@ window.BOLOGNESE_DATA = {
             "notFound": true
           },
           "aldi": {
-            "price": 2.69,
+            "price": 2.49,
             "label": "Premium Napoletana Pasta Sauce 500g"
           }
         },
@@ -215,7 +215,7 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Brown Onions 1kg",
           "ww": {
-            "price": 2.5,
+            "price": 3.6,
             "label": "Woolworths Onion Brown Bag 1kg"
           },
           "coles": {
@@ -229,9 +229,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 2.3,
-            "label": "Mushrooms Cups Loose per 200g",
-            "isSpecial": true
+            "price": 2.5,
+            "label": "Mushrooms Cups Loose per 200g"
           },
           "coles": {
             "notFound": true
@@ -244,14 +243,14 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 1.7,
+            "price": 2.4,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 1.49,
+            "price": 1.99,
             "label": "Carrots 1kg"
           }
         },
@@ -312,10 +311,10 @@ window.BOLOGNESE_DATA = {
             "notFound": true
           },
           "aldi": {
-            "price": 13.98,
+            "price": 12.98,
             "label": "2 Star Beef Mince 500g",
             "qty": 2,
-            "unitPrice": 6.99
+            "unitPrice": 6.49
           }
         },
         {
@@ -349,7 +348,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Tomato Paste",
           "ww": {
-            "notFound": true
+            "price": 0.95,
+            "label": "Woolworths Essentials Tomato Paste 170g"
           },
           "coles": {
             "notFound": true
@@ -362,7 +362,7 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Brown Onions 1kg",
           "ww": {
-            "price": 2.5,
+            "price": 3.6,
             "label": "Woolworths Onion Brown Bag 1kg"
           },
           "coles": {
@@ -376,9 +376,8 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 2.3,
-            "label": "Mushrooms Cups Loose per 200g",
-            "isSpecial": true
+            "price": 2.5,
+            "label": "Mushrooms Cups Loose per 200g"
           },
           "coles": {
             "notFound": true
@@ -391,14 +390,14 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Carrots 1kg",
           "ww": {
-            "price": 1.7,
+            "price": 2.4,
             "label": "Woolworths Australian Grown Carrots 1kg"
           },
           "coles": {
             "notFound": true
           },
           "aldi": {
-            "price": 1.49,
+            "price": 1.99,
             "label": "Carrots 1kg"
           }
         },
@@ -412,7 +411,7 @@ window.BOLOGNESE_DATA = {
             "notFound": true
           },
           "aldi": {
-            "price": 5.19,
+            "price": 4.99,
             "label": "Shredded Parmesan Cheese 250g"
           }
         },
@@ -555,7 +554,7 @@ function render() {
     </tr>`;
 
   document.getElementById('ww-note').innerHTML =
-    `<strong>ℹ️ Woolworths prices:</strong> 19/20 live-fetched 3 September 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
+    `<strong>ℹ️ Woolworths prices:</strong> Live — fetched 10 September 2026 via CDP harness.`;
 }
 
 // Initial render
