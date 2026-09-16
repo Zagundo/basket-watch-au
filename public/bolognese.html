@@ -349,8 +349,7 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Tomato Paste",
           "ww": {
-            "price": 0.95,
-            "label": "Woolworths Essentials Tomato Paste 170g"
+            "notFound": true
           },
           "coles": {
             "notFound": true
@@ -377,7 +376,7 @@ window.BOLOGNESE_DATA = {
         {
           "name": "Mushrooms 200g",
           "ww": {
-            "price": 2.5,
+            "price": 12.5,
             "label": "Mushrooms Cups Loose per 200g"
           },
           "coles": {
@@ -555,7 +554,7 @@ function render() {
     </tr>`;
 
   document.getElementById('ww-note').innerHTML =
-    `<strong>ℹ️ Woolworths prices:</strong> Live — fetched 17 September 2026 via CDP harness.`;
+    `<strong>ℹ️ Woolworths prices:</strong> 19/20 live-fetched 17 September 2026; remaining items fell back to last verified capture (WW API/harness partially unavailable).`;
 }
 
 // Initial render
